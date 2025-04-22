@@ -29,8 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <ul class="participants-list">
             ${details.participants.map(participant => `
               <li>
-                <span class="participant-name">${participant.name}</span>
-                <span class="participant-email">(${participant.email})</span>
+                <span class="participant">${participant}</span>
               </li>
             `).join("")}
           </ul>
